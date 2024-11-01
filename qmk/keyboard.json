@@ -5,19 +5,16 @@
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": false,
+        "bootmagic": true,
         "command": false,
         "console": false,
-        "extrakey": false,
+        "extrakey": true,
         "mousekey": false,
-        "nkro": false
+        "nkro": true
     },
     "matrix_pins": {
         "cols": ["B1", "B0", "A4", "A2"],
         "rows": ["A3", "A7", "A6", "A5"]
-    },
-    "bootmagic": {
-        "matrix": [3, 3]
     },
     "processor": "STM32L432",
     "url": "",
